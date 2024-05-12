@@ -9,6 +9,32 @@ lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.8.0"
 composeBom = "2023.08.00"
 kotlinxCoroutinesAndroid = "1.8.1"
+kotlinxCoroutinesCore = "1.8.1"
+converterGson = "2.11.0"
+composeBomVersion = "2024.05.00"
+composeCompiler = "1.0.0-alpha03"
+composeRuntime = "0.1.0-dev14"
+ui = "1.7.0-alpha08"
+volley = "1.2.1"
+compose = "1.0.0-beta01"
+accompanistCoil = "0.15.0"
+lifecycleLivedataKtx = "2.8.0-rc01"
+runtime = "1.7.0-alpha08"
+runtimeAndroid = "1.7.0-alpha08"
+uiTooling = "1.7.0-alpha08"
+uiToolingAndroid = "1.7.0-alpha08"
+foundation = "1.7.0-alpha08"
+foundationAndroid = "1.7.0-alpha08"
+foundationLayout = "1.7.0-alpha08"
+foundationLayoutAndroid = "1.7.0-alpha08"
+runtimeLivedata = "1.7.0-alpha08"
+material = "1.7.0-alpha08"
+materialAndroid = "1.7.0-alpha08"
+materialIconsCore = "1.7.0-alpha08"
+materialIconsCoreAndroid = "1.7.0-alpha08"
+materialIconsExtended = "1.7.0-alpha08"
+materialIconsExtendedAndroid = "1.7.0-alpha08"
+activityComposeVersion = "1.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +52,32 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGson" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBomVersion" }
+androidx-compose-compiler = { group = "androidx.compose", name = "compose-compiler", version.ref = "composeCompiler" }
+androidx-compose-runtime = { group = "androidx.compose", name = "compose-runtime", version.ref = "composeRuntime" }
+ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+compose = { group = "com.github.bumptech.glide", name = "compose", version.ref = "compose" }
+accompanist-coil = { group = "com.google.accompanist", name = "accompanist-coil", version.ref = "accompanistCoil" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
+androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroid" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "uiTooling" }
+androidx-ui-tooling-android = { group = "androidx.compose.ui", name = "ui-tooling-android", version.ref = "uiToolingAndroid" }
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundationAndroid" }
+androidx-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version.ref = "foundationLayout" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+androidx-material = { group = "androidx.compose.material", name = "material", version.ref = "material" }
+androidx-material-android = { group = "androidx.compose.material", name = "material-android", version.ref = "materialAndroid" }
+androidx-material-icons-core = { group = "androidx.compose.material", name = "material-icons-core", version.ref = "materialIconsCore" }
+androidx-material-icons-core-android = { group = "androidx.compose.material", name = "material-icons-core-android", version.ref = "materialIconsCoreAndroid" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-material-icons-extended-android = { group = "androidx.compose.material", name = "material-icons-extended-android", version.ref = "materialIconsExtendedAndroid" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityComposeVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
